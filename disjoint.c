@@ -91,11 +91,15 @@ void main()
 					printf("\n%d and %d are connected to a single leader %d",x,y,find(x));
 				else
 					printf("\nDisconnected components");
+					break;
 			case 3: printf("\nEnter two elements to perform union");
 				scanf("%d%d",&x,&y);
 				Union(x,y);
+					break;
 			case 4:display();
+					break;
 			case 5:exit(1);
+					break;
 		}
 	}
 }
